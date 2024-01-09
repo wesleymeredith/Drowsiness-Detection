@@ -19,7 +19,8 @@ pip install dlib
 ```
 
 ## Inspiration
-This project was inspired by this article. Check it out for more insights into the underlying concepts.
+This project was inspired by [this article](https://www.sciencedirect.com/science/article/pii/S2667241322000039). Check it out for more insights into the underlying concepts.
+
 
 ## Contributing
 If you want to contribute to this project, feel free to open issues, submit pull requests, or suggest improvements. We welcome your feedback and collaboration.
