@@ -16,6 +16,7 @@ Make sure to install the required dependencies:
 
 ```bash
 pip install dlib
+```
 
 ## Inspiration
 This project was inspired by this article. Check it out for more insights into the underlying concepts.
