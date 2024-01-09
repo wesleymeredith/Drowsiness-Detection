@@ -1,5 +1,7 @@
 # Drowsiness Detection
 
+Drowsiness Detection is a specialized tool designed to address safety concerns arising from drowsiness in various scenarios such as driving, operating machinery, and participating in lengthy Zoom meetings. The project utilizes the power of the dlib library, a robust open-source machine learning library, primarily known for its effectiveness in facial recognition.
+
 **Installation Guide for Windows 10**
 
 **Prerequisites:**
