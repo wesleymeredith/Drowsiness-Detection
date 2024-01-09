@@ -1,26 +1,43 @@
 # Drowsiness Detection
 
-Drowsiness Detection is a tool designed to address issues caused by drowsiness in various scenarios such as driving, operating machinery, and enduring long Zoom meetings.
+**Installation Guide for Windows 10**
 
-## Usage
+**Prerequisites:**
 
-To use the v2 version, follow these steps:
+1. **Python:** Download and install from https://www.python.org/downloads/.
+2. **CMake:** Download and install from https://cmake.org/download/. Ensure you add CMake to your system PATH during installation.
+3. **Visual Studio:** Install the C++ compiler from Visual Studio Code's community version, selecting "Desktop development with C++" during setup: https://visualstudio.microsoft.com/visual-cpp-build-tools/
 
-1. Ensure you have [dlib](http://dlib.net/) installed. You can download it from their official website.
-2. Obtain the corresponding facial landmarks file (included in this repository).
-3. Run the v2 version as you would with any normal application.
+**Additional Dependencies:**
 
-## Dependencies
+- Install using pip: `pip install cmake`
 
-Make sure to install the required dependencies:
+**Installing dlib:**
 
-```bash
-pip install dlib
-```
+1. Open a command prompt.
+2. Execute the command: `pip install dlib`
 
-## Inspiration
-This project was inspired by [this article](https://www.sciencedirect.com/science/article/pii/S2667241322000039). Check it out for more insights into the underlying concepts.
+**Verification:**
+
+- Open a Python interpreter and run:
+
+```python
+import dlib
 
 
-## Contributing
-If you want to contribute to this project, feel free to open issues, submit pull requests, or suggest improvements. We welcome your feedback and collaboration.
+- If no errors occur, the installation was successful.
+
+**Usage (v2 version):**
+
+1. Obtain the facial landmarks file from the repository.
+2. Run the v2 version as you would with any normal application.
+
+**Other Information:**
+
+- **Inspiration:** [https://www.sciencedirect.com/science/article/pii/S2667241322000039](https://www.sciencedirect.com/science/article/pii/S2667241322000039)
+- **Contributions:** Welcome! Open issues, submit pull requests, or suggest improvements.
+
+**Troubleshooting:**
+
+- If you encounter issues, refer to the official dlib documentation for detailed guidance: [http://dlib.net/](http://dlib.net/)
+
