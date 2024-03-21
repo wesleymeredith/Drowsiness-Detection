@@ -19,7 +19,7 @@ face_detector = dlib.get_frontal_face_detector()
 # PUT THE LOCATION OF .DAT FILE (FILE FOR
 # PREDECTING THE LANDMARKS ON FACE )
 dlib_facelandmark = dlib.shape_predictor(
-	"C:\\Users\\Wesley\\Desktop\\Drowsiness Detection\\shape_predictor_68_face_landmarks.dat")
+	"C:\\Users\\Wesley\\Desktop\\CODE\\Drowsiness Detection\\shape_predictor_68_face_landmarks.dat")
 
 # set a variable to calculate elapsed time
 closed_eyes_start_time = 0
@@ -106,7 +106,7 @@ while True:
 					cv2.putText(frame, "Alert!!!! WAKE UP DUDE", (50, 450),
 								cv2.FONT_HERSHEY_PLAIN, 2, (21, 56, 212), 3)
 					# audio cues
-					engine.say("Wake up you piece of shit")
+					engine.say("Wake up bro, time to grind.")
 					engine.runAndWait()
 		else:
 			closed_eyes_start_time = None
